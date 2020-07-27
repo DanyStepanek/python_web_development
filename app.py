@@ -64,6 +64,10 @@ def create():
 def r_p_s_game():
     return render_template('r_p_s_game.html')
 
+@app.route('/snake')
+def snake():
+    return render_template('snake.html')
+
 @app.route('/<int:id>/edit', methods=('GET', 'POST'))
 def edit(id):
     post = get_post(id)
