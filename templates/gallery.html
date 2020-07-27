@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>{% block title %}{% endblock %}</h1>
+
+    <div class="col-xl">
+      {% for image in images %}
+      <div class="gallery">
+        <img src="/static/images/gallery/{{ image['title'] }}">
+        <div class="desc">
+          <h2>{{ image['title'] }}</h2>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="form-group">
+        <a href="/upload-image" class="btn btn-primary">New..</a>
+      </div>
+    </div>
+
+{% endblock %}

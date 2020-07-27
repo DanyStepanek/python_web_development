@@ -1,0 +1,89 @@
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: lightblue;
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  background: black;
+  font-family: Asap, sans-serif;
+
+
+}
+
+#a-title{
+  text-align: left;
+
+}
+
+.post {
+
+  margin-bottom: 3px;
+  background: #302c2c;
+  border: solid gray thin;
+  border-radius: 0.5em;
+  padding: 7px;
+}
+
+.post-info {
+  border-top: solid gray thin;
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+
+.col {
+  border-left: solid gray;
+  border-radius: 0.2em;
+  font-family: Asap, sans-serif;
+
+}
+.col-6{
+  text-align: center;
+  font-family: Asap, sans-serif;
+
+}
+.content {
+  border-top: solid gray thin;
+  color: white;
+  font-family: Asap, sans-serif;
+  padding-bottom: 7px;
+  padding-top: 2px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+#user {
+  font-size: 1em;
+  color: white;
+  font-family: Asap, sans-serif;
+
+}

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <div class="game-div">
+
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="computer-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>Welcome to Rock Paper Scissors game! Let's try to beat computer!</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="r">
+        <img src="static/images/r_p_s/rock.png" style="width: 7vw; min-width; 200px;"/>
+      </div>
+      <div class="choice" id="p">
+        <img src="static/images/r_p_s/paper.png" style="width: 7vw; min-width; 200px;"/>
+      </div>
+      <div class="choice" id="s">
+        <img src="static/images/r_p_s/scissors.png" style="width: 7vw; min-width; 200px;"/>
+      </div>
+
+    </div>
+
+    <p id="action-message">Make your move</p>
+    <script src="static/js/rock_paper_scissors.js" charset="utf-8"></script>
+
+  </div>
+{% endblock %}
