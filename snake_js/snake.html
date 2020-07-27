@@ -1,0 +1,59 @@
+<html>
+  <style>
+    #game {
+      width: 800;
+      height: 600;
+      position: relative;
+      background: gray;
+    }
+
+    #snake {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      background: white;
+      border-color: green;
+
+    }
+
+    #piece {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      background: green;
+      border-color: green;
+
+    }
+
+    #point {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      background: red;
+    }
+
+</style>
+
+  <head><title>Snake</title>
+  </head>
+
+  <body bgcolor="#00000">
+
+    <div id="game">
+      <div id="snake"></div>
+      <div id="point"></div>
+    </div>
+
+    <script type="text/javascript" src="snake.js"></script>
+
+    <div>
+      <button id='start' onclick="setup()">Start</button>
+      <p style="color:white;">Score: </p>
+      <div id="score" style="color:white;"></div>
+    </div>
+
+
+
+  </body>
+
+</html>
